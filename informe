@@ -1,0 +1,51 @@
+
+
+**Fabricio Andres Benitez Gonzalez 7004299, David Alejandro Rincon Triana 7004319**
+
+# Estructuras de Datos
+
+*Autores:*
+- Benítez González Fabricio Andrés
+- Rincon Triana David Alejandro
+
+*Correos:*  
+est.{fabricio.benítez, david.arincon}@unimilitar.edu.co
+
+*Profesor:*  
+Héctor Murcia Forero
+
+## Resumen
+
+Se desarrollaron dos programas en Java utilizando **estructuras de datos**. El primero, un sistema de asignación de turnos en una EPS, emplea una **cola** para organizar a los pacientes por prioridad. El segundo, una herramienta para la gestión de un parqueadero, utiliza **listas** para almacenar vehículos y **pilas** para calcular el pago de estacionamiento según el tipo de vehículo. Ambas aplicaciones cuentan con interfaces gráficas.
+
+*Palabras clave:* colas, listas, pilas, turnos, parqueadero, Java.
+
+## Introducción
+
+Este informe documenta la creación de dos programas en Java que emplean estructuras de datos:
+
+1. **Asignación de turnos en una EPS**: Usa una **cola** para gestionar a los pacientes con prioridades especiales (edad, embarazo, limitación motriz, afiliación a plan complementario). La asignación se realiza de forma automática cada 5 segundos, y permite ingresar nuevos pacientes en cualquier momento.
+
+2. **Gestión de un parqueadero**: Usa **listas** para registrar los vehículos y **pilas** para gestionar los vehículos de dos y cuatro ruedas. Se calculan automáticamente los costos de estacionamiento y se pueden visualizar y eliminar vehículos.
+
+## Marco Teórico
+
+Las **estructuras de datos** permiten organizar y acceder a la información de manera eficiente:
+
+- **Colas**: Usadas para asignar turnos en la EPS, manejando el orden de llegada y prioridades.
+- **Listas**: Usadas para registrar los vehículos en el parqueadero.
+- **Pilas**: Utilizadas para gestionar los vehículos según el tipo (dos o cuatro ruedas) y calcular los costos de estacionamiento.
+
+## Desarrollo
+
+1. **EPS**: El sistema pregunta al paciente su nombre, edad, afiliación y condición especial, priorizando los turnos según estos criterios. Cada 5 segundos se llama al siguiente turno, mostrando el paciente en curso y los pendientes.
+
+2. **Parqueadero**: El sistema permite registrar vehículos, mostrar el listado y calcular el valor del estacionamiento basado en el tiempo. Además, se visualizan y gestionan los vehículos de dos y cuatro ruedas por separado usando **pilas**.
+
+## Conclusiones
+
+- Las **colas** fueron útiles para organizar turnos según prioridades en la EPS.
+- Las **listas** y **pilas** simplificaron la gestión del parqueadero.
+- Las estructuras de datos son fundamentales para organizar información de manera eficiente en estos contextos.
+
+---
